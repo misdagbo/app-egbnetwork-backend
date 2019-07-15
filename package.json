@@ -1,0 +1,40 @@
+{
+  "name": "app-egbnetwork-backend",
+  "version": "1.0.0",
+  "description": "Backend node-express de la plateforme egbnetwork",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misdagbo/app-egbnetwork-backend.git"
+  },
+  "keywords": [
+    "node",
+    "|",
+    "express",
+    "|",
+    "jwt",
+    "|",
+    "passport",
+    "|",
+    "session",
+    "|",
+    "file",
+    "|",
+    "mysql"
+  ],
+  "author": "Full Gospel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/misdagbo/app-egbnetwork-backend/issues"
+  },
+  "homepage": "https://github.com/misdagbo/app-egbnetwork-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-list-endpoints": "^4.0.1",
+    "mysql": "^2.17.1"
+  }
+}
